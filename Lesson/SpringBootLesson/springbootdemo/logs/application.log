@@ -1,0 +1,571 @@
+2025-02-24T20:51:54.368+08:00  INFO 23892 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 23892 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:51:54.368+08:00  INFO 23892 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:51:54.429+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:51:54.429+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:51:54.429+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:51:54.432+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:51:54.432+08:00  INFO 23892 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2025-02-24T20:51:54.442+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T20:51:54.456+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T20:51:54.460+08:00  INFO 23892 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T20:51:54.464+08:00  INFO 23892 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.119 seconds (process running for 2154.385)
+2025-02-24T20:51:54.464+08:00  INFO 23892 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T20:52:50.474+08:00  INFO 23892 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T20:52:50.475+08:00  INFO 23892 --- [springbootdemo] [Thread-173] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T20:52:50.476+08:00  INFO 23892 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T20:54:03.887+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:54:03.889+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:54:03.921+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-24T20:54:03.922+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-24T20:54:04.409+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:54:04.417+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:54:04.417+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:54:04.437+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:54:04.438+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 516 ms
+2025-02-24T20:54:04.495+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T20:54:04.628+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T20:54:04.644+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T20:54:04.651+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 1.104 seconds (process running for 1.341)
+2025-02-24T20:54:04.653+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T20:54:04.653+08:00  WARN 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T20:54:04.653+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T20:55:30.570+08:00  INFO 43880 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-24T20:55:30.572+08:00  INFO 43880 --- [springbootdemo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T20:55:30.575+08:00  INFO 43880 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T20:55:30.609+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:55:30.609+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:55:30.714+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:55:30.715+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:55:30.716+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:55:30.721+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:55:30.721+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2025-02-24T20:55:30.736+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T20:55:30.764+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T20:55:30.768+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T20:55:30.771+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.177 seconds (process running for 84.951)
+2025-02-24T20:55:30.772+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T20:55:30.773+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T20:55:30.773+08:00  WARN 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T20:55:30.774+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T20:56:30.716+08:00  INFO 43880 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T20:56:30.717+08:00  INFO 43880 --- [springbootdemo] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T20:56:30.718+08:00  INFO 43880 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T20:56:30.748+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:56:30.748+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:56:30.829+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:56:30.829+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:56:30.829+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:56:30.835+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:56:30.835+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-02-24T20:56:30.847+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T20:56:30.868+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T20:56:30.872+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T20:56:30.875+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.139 seconds (process running for 142.526)
+2025-02-24T20:56:30.875+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T20:56:30.876+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T20:56:30.876+08:00  WARN 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T20:56:30.876+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T20:57:46.898+08:00  INFO 43880 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T20:57:46.900+08:00  INFO 43880 --- [springbootdemo] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T20:57:46.901+08:00  INFO 43880 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T20:57:46.931+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:57:46.931+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:57:47.020+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:57:47.021+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:57:47.021+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:57:47.027+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:57:47.027+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 95 ms
+2025-02-24T20:57:47.039+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T20:57:47.060+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T20:57:47.066+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T20:57:47.068+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.151 seconds (process running for 216.119)
+2025-02-24T20:57:47.069+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T20:57:47.069+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T20:57:47.069+08:00  WARN 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T20:57:47.069+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T20:58:02.758+08:00  INFO 43880 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T20:58:02.759+08:00  INFO 43880 --- [springbootdemo] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T20:58:02.760+08:00  INFO 43880 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T20:58:02.785+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:58:02.786+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:58:02.855+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:58:02.855+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:58:02.855+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:58:02.860+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:58:02.861+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 74 ms
+2025-02-24T20:58:02.865+08:00  WARN 43880 --- [springbootdemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+2025-02-24T20:58:02.865+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-24T20:58:02.869+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24T20:58:02.877+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.example.springbootdemo.SpringbootdemoApplication.main(SpringbootdemoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "( )" to complete Expression
+	The method setId(int) is undefined for the type SampleItem
+	The method setName(String) is undefined for the type SampleItem
+	The method setPrice(double) is undefined for the type SampleItem
+	The method setDesc(String) is undefined for the type SampleItem
+
+	at com.example.springbootdemo.SampleController.<init>(SampleController.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+2025-02-24T20:58:18.312+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:58:18.312+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:58:18.403+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:58:18.404+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:58:18.405+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:58:18.409+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:58:18.409+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 95 ms
+2025-02-24T20:58:18.412+08:00  WARN 43880 --- [springbootdemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+2025-02-24T20:58:18.412+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-24T20:58:18.415+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24T20:58:18.416+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.example.springbootdemo.SpringbootdemoApplication.main(SpringbootdemoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "( )" to complete Expression
+
+	at com.example.springbootdemo.SampleController.<init>(SampleController.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+2025-02-24T20:58:27.170+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 43880 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:58:27.170+08:00  INFO 43880 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:58:27.243+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:58:27.244+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:58:27.244+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:58:27.247+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:58:27.247+08:00  INFO 43880 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-02-24T20:58:27.251+08:00  WARN 43880 --- [springbootdemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+2025-02-24T20:58:27.251+08:00  INFO 43880 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-24T20:58:27.254+08:00  INFO 43880 --- [springbootdemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24T20:58:27.256+08:00 ERROR 43880 --- [springbootdemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.example.springbootdemo.SpringbootdemoApplication.main(SpringbootdemoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "( )" to complete Expression
+
+	at com.example.springbootdemo.SampleController.<init>(SampleController.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+2025-02-24T20:58:53.584+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T20:58:53.586+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T20:58:53.617+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-24T20:58:53.617+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-24T20:58:54.147+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T20:58:54.157+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T20:58:54.157+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T20:58:54.184+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T20:58:54.184+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 567 ms
+2025-02-24T20:58:54.263+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T20:58:54.403+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T20:58:54.418+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T20:58:54.424+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 1.116 seconds (process running for 1.328)
+2025-02-24T20:58:54.426+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T20:58:54.427+08:00  WARN 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T20:58:54.427+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T20:58:58.448+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-24T20:58:58.448+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-24T20:58:58.449+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-24T21:00:10.846+08:00  INFO 46547 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T21:00:10.848+08:00  INFO 46547 --- [springbootdemo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T21:00:10.851+08:00  INFO 46547 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T21:00:10.885+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:00:10.885+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:00:10.992+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:00:10.992+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:00:10.993+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:00:10.998+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:00:10.998+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2025-02-24T21:00:11.004+08:00  WARN 46547 --- [springbootdemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+2025-02-24T21:00:11.005+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-24T21:00:11.009+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24T21:00:11.018+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.example.springbootdemo.SpringbootdemoApplication.main(SpringbootdemoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+
+	at com.example.springbootdemo.SampleController.<init>(SampleController.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+2025-02-24T21:00:12.838+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:00:12.838+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:00:12.924+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:00:12.925+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:00:12.925+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:00:12.930+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:00:12.930+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 91 ms
+2025-02-24T21:00:12.935+08:00  WARN 46547 --- [springbootdemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+2025-02-24T21:00:12.935+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-24T21:00:12.938+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24T21:00:12.939+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes/com/example/springbootdemo/SampleController.class]: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.example.springbootdemo.SpringbootdemoApplication.main(SpringbootdemoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.springbootdemo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+	Sample cannot be resolved to a type
+
+	at com.example.springbootdemo.SampleController.<init>(SampleController.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+2025-02-24T21:00:16.358+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:00:16.358+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:00:16.446+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:00:16.447+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:00:16.447+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:00:16.451+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:00:16.451+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2025-02-24T21:00:16.463+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T21:00:16.488+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T21:00:16.492+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T21:00:16.495+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.15 seconds (process running for 79.383)
+2025-02-24T21:00:16.496+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T21:00:16.496+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T21:00:16.496+08:00  WARN 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T21:00:16.496+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T21:00:27.182+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-24T21:00:27.182+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-24T21:00:27.183+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-24T21:00:27.187+08:00 ERROR 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.springbootdemo.SampleItem.setId(int)" because "this.item" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.springbootdemo.SampleItem.setId(int)" because "this.item" is null
+	at com.example.springbootdemo.SampleController.getItem(SampleController.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-02-24T21:01:06.134+08:00  INFO 46547 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T21:01:06.135+08:00  INFO 46547 --- [springbootdemo] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T21:01:06.136+08:00  INFO 46547 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T21:01:06.164+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:01:06.164+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:01:06.249+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:01:06.250+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:01:06.250+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:01:06.254+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:01:06.254+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 89 ms
+2025-02-24T21:01:06.258+08:00  WARN 46547 --- [springbootdemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sampleController': Unsatisfied dependency expressed through field 'item': No qualifying bean of type 'com.example.springbootdemo.SampleItem' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-02-24T21:01:06.259+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-24T21:01:06.261+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24T21:01:06.263+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field item in com.example.springbootdemo.SampleController required a bean of type 'com.example.springbootdemo.SampleItem' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.springbootdemo.SampleItem' in your configuration.
+
+2025-02-24T21:01:50.234+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:01:50.234+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:01:50.311+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:01:50.312+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:01:50.312+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:01:50.316+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:01:50.316+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 81 ms
+2025-02-24T21:01:50.327+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T21:01:50.352+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T21:01:50.356+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T21:01:50.358+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.138 seconds (process running for 169.482)
+2025-02-24T21:01:50.359+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T21:01:50.360+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T21:01:50.360+08:00  WARN 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T21:01:50.360+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T21:02:12.760+08:00  INFO 46547 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T21:02:12.761+08:00  INFO 46547 --- [springbootdemo] [Thread-17] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T21:02:12.762+08:00  INFO 46547 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T21:02:12.791+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:02:12.792+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:02:12.865+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:02:12.865+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:02:12.866+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:02:12.869+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:02:12.869+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-02-24T21:02:12.878+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T21:02:12.899+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T21:02:12.903+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T21:02:12.906+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.127 seconds (process running for 192.029)
+2025-02-24T21:02:12.906+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T21:02:12.907+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T21:02:12.907+08:00  WARN 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T21:02:12.907+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T21:02:17.571+08:00  INFO 46547 --- [springbootdemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-24T21:02:17.572+08:00  INFO 46547 --- [springbootdemo] [Thread-24] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T21:02:17.573+08:00  INFO 46547 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T21:02:17.599+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Starting SpringbootdemoApplication using Java 17.0.13 with PID 46547 (/home/g-cheong/Lesson/SpringBootLesson/springbootdemo/target/classes started by g-cheong in /home/g-cheong/Lesson/SpringBootLesson/springbootdemo)
+2025-02-24T21:02:17.600+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T21:02:17.667+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-24T21:02:17.667+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T21:02:17.667+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-24T21:02:17.671+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-24T21:02:17.671+08:00  INFO 46547 --- [springbootdemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 70 ms
+2025-02-24T21:02:17.683+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-24T21:02:17.701+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-24T21:02:17.705+08:00  INFO 46547 --- [springbootdemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-24T21:02:17.708+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Started SpringbootdemoApplication in 0.119 seconds (process running for 195.561)
+2025-02-24T21:02:17.708+08:00  INFO 46547 --- [springbootdemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-24T21:02:17.708+08:00  INFO 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : starting springbootdemoApplication
+2025-02-24T21:02:17.709+08:00  WARN 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test warning
+2025-02-24T21:02:17.709+08:00 ERROR 46547 --- [springbootdemo] [restartedMain] c.e.s.SpringbootdemoApplication          : Test error
+2025-02-24T21:03:27.522+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-24T21:03:27.522+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-24T21:03:27.523+08:00  INFO 46547 --- [springbootdemo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-24T21:05:53.864+08:00  INFO 46547 --- [springbootdemo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T21:05:53.865+08:00  INFO 46547 --- [springbootdemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
