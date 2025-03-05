@@ -2,7 +2,7 @@ package com.simplecrm.app;
 
 import java.util.ArrayList;
 
-import org.springframework.beans.factory.annotation.Qualifier;
+// import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CustomerController {
     private CustomerService customerService;
 
-    public CustomerController(@Qualifier("customerServiceWithLoggingImpl") CustomerService customerService) {
+    public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
     
@@ -33,7 +33,7 @@ public class CustomerController {
         return new ResponseEntity<>(customerService.getAllCustomers(), HttpStatus.ACCEPTED);
     }
     @GetMapping("/{id}")
-    public ResponseEntity<Customer> getCustomer(@PathVariable String id) {
+    public ResponseEntity<Customer> getCustomer(@PathVariable Long id) {
         try{
             return new ResponseEntity<>(customerService.getCustomer(id), HttpStatus.ACCEPTED);
         } catch(ProductNotFoundException e) {
@@ -41,7 +41,7 @@ public class CustomerController {
         }
     }
     @PutMapping("/{id}")
-    public ResponseEntity<Customer> updateCustomer(@PathVariable String id, @RequestBody Customer customer) {
+    public ResponseEntity<Customer> updateCustomer(@PathVariable Long id, @RequestBody Customer customer) {
         try {
             Customer updatedCustomer = customerService.updateCustomer(id, customer);
             return new ResponseEntity<>(updatedCustomer, HttpStatus.CREATED);
@@ -50,12 +50,18 @@ public class CustomerController {
         }
     }
     @DeleteMapping("/{id}")
-    public ResponseEntity<Customer> deleteCustomer(@PathVariable String id) {
+    public ResponseEntity<Customer> deleteCustomer(@PathVariable Long id) {
         try {
             customerService.deleteCustomer(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         } catch(ProductNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+    }
+
+    //NESTED ROUTES
+    @PostMapping("/{id}/interactions")
+    public ResponseEntity<Interaction> createInteractionToCustomer(@PathVariable Long id, @RequestBody Interaction interaction) {
+        return new ResponseEntity<>(customerService.createInteractionToCustomer(id, interaction), HttpStatus.CREATED);
     }
 }

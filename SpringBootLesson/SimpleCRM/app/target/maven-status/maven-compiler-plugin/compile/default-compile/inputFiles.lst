@@ -5,6 +5,15 @@
 /home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/CustomerRepository.java
 /home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/CustomerService.java
 /home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/CustomerServiceImpl.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/CustomerServiceWithLoggingImpl.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/DataLoader.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/Interaction.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/InteractionController.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/InteractionNotFoundException.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/InteractionRepository.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/InteractionService.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/InteractionServiceImpl.java
 /home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/Product.java
 /home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/ProductController.java
 /home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/ProductNotFoundException.java
+/home/g-cheong/Lesson/SpringBootLesson/SimpleCRM/app/src/main/java/com/simplecrm/app/oldCustomerRepository.java
