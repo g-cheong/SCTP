@@ -1,4 +1,10 @@
 com/simplecrm/app/CustomerNotFoundException.class
 com/simplecrm/app/ProductNotFoundException.class
+com/simplecrm/app/CustomerRepository.class
 com/simplecrm/app/Product.class
+com/simplecrm/app/CustomerServiceImpl.class
+com/simplecrm/app/Customer$CustomerBuilder.class
+com/simplecrm/app/CustomerService.class
+com/simplecrm/app/CustomerServiceWithLoggingImpl.class
+com/simplecrm/app/DataLoader.class
 com/simplecrm/app/ProductController.class
